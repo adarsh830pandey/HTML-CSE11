@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hyperlink Examples</title>
+</head>
+<body>
+
+    <h1>Hyperlinks to Various Media Elements</h1>
+
+    <!-- Text Hyperlink -->
+    <p>
+        <a href="https://www.wikipedia.org" target="_blank">Visit Wikipedia (Text Link)</a>
+    </p>
+
+    <!-- Image Hyperlink -->
+    <p>
+        <a href="https://www.nationalgeographic.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/National-Geographic-Logo.png" 
+                 alt="National Geographic" width="200">
+        </a>
+    </p>
+
+    <!-- Audio Hyperlink -->
+    <p>
+        <a href="the_force_awakens.mp3" download>Download Sample Audio (MP3)</a>
+        <br>
+        <audio controls>
+            <source src="the_force_awakens.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </p>
+
+    <!-- Video Hyperlink -->
+    <p>
+        <a href="Venice_10.mp4" download>Download Sample Video (MP4)</a>
+        <br>
+        <video width="320" height="240" controls>
+            <source src="Venice_10.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/a3ICNMQW7Ok?si=zFzbaMUymb81qec8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- Hyperlink to PDF or Document -->
+    <p>
+        <a href="the-complete-reference-html-css-fifth-edition.pdf" target="_blank">Open Sample PDF Document</a>
+    </p>
+
+</body>
+</html>
